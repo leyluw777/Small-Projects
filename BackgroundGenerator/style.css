@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background: linear-gradient(to right, #00ff00, #ff0000);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+}
+
+input {
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    cursor: pointer;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+}
+h2 {
+    font-size: 35px;
+    font-style: oblique;
+}
+
+button {
+    background: transparent;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+}

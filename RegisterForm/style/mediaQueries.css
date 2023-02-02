@@ -1,0 +1,28 @@
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-wrap: wrap;
+    }
+    .left-side {
+        width: 100%;
+        height: 40vh;
+    }
+    .right-side  {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .right-side .right-side-container {
+        padding: 20px;
+        min-width: 100%;
+        align-items: center;
+    }
+    .right-side .right-side-container .nameAndSurname {
+        flex-wrap:  wrap;
+        gap: 32px;
+    }
+
+    .username, .lastname {
+        width: 100%;
+    }
+}

@@ -1,0 +1,53 @@
+main {
+  height: 100vh;
+  width: 100%;
+  background-color: #e5ffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 100px;
+  color: #003333;
+  margin: 0;
+  text-shadow: 0px 0px 5px #012424;
+}
+
+main #value {
+  font-size: 70px;
+  color: #009999;
+}
+
+main .btn {
+  margin: 50px 20px 0 0;
+  padding: 10px 20px;
+  border: 3px solid #076161;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #003333;
+  font-size: 20px;
+  min-width: 100px;
+  height: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main .btn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 212, 212, 0.2);
+}
+/*# sourceMappingURL=style.css.map */

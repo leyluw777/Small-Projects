@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+  min-height: 722px;
+  padding: 30px;
+  background: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+}
+
+.section .current-time {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding: 30px;
+  font-family: 'Itim', cursive;
+}
+
+.section .current-time h1 {
+  font-family: 'Courgette', cursive;
+  font-size: 50px;
+}
+
+.section .current-time #time {
+  font-size: 70px;
+}
+
+.section .current-time #current-time-caption {
+  font-size: 40px;
+  font-family: 'Itim', cursive;
+}
+
+.section .time-for-input {
+  height: 35%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.section .time-for-input #my_time {
+  margin: 20px;
+  width: 200px;
+  height: 30px;
+  padding: 10px;
+  border: 0px;
+  border-bottom: 1px black solid;
+  background-color: transparent;
+  -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.19);
+          box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.19);
+}
+
+.section .time-for-input #my_time:hover {
+  cursor: pointer;
+}
+
+.section .time-for-input #my_time:focus {
+  outline: none;
+}
+
+.section .time-for-input button {
+  width: 200px;
+  height: 50px;
+  background-color: transparent;
+  border: 1px black solid;
+  font-family: 'Courgette', cursive;
+  font-size: 17px;
+  font-weight: 600;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.section .time-for-input button:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.section .time-for-input button:focus {
+  outline: none;
+}
+
+.section .time-for-input #my-time-print {
+  margin: 10px;
+  color: black;
+  font-size: 20px;
+  font-family: 'Itim', cursive;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style/style.css">
+<link rel="stylesheet" href="style/mediaQueries.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="left-side"> </div>
+        <div class="right-side">
+            <div class="right-side-container">
+            <h2>Register</h2>
+            <form action="">
+                <div class="nameAndSurname">
+                    <div class="username">
+                <label for="username"> First name *</label>
+                <input type="text" name="" id="username" placeholder="Your First Name" required>
+            </div>
+
+            <div class="lastname">
+                <label for="lastname">Last Name *</label>
+                <input type="text" name="" id="lastname" placeholder="Your Last Name" required>
+            </div>
+            </div>
+                <div class="email">
+
+                
+            <label for="email"> Email *</label>
+            <input type="email" name="" id="email" placeholder="Your email" required>
+        </div>
+        <div class="password">
+            <label for="password"> Password *</label>
+            <input type="password" name="" id="password" placeholder="Your password" required>
+        </div>    
+
+
+            <div class="rules">
+                <div class="toggle-btn" id="toggle-btn">
+                    <div class="toggle-circle"></div>
+                </div>
+
+                <span>I accept the <a href="#"> Terms of Service</a> as well as <a href="#">Privacy Policy</a></span>
+            </div>
+
+            <button type="submit" id="submitBtn" disabled> Create Account </button>
+            <hr>
+        </form>
+            <span class="logIn">Already have an account ? <a href="#"> Login now</a></span>
+
+            <div class="additional-links">
+                <a href="#">Help</a>
+                <a href="#">Legal</a>
+                <a href="#">Privacy</a>
+                <a href="#">TOS</a>
+            </div>
+        
+        </div>
+        </div>
+    </div>
+
+
+    
+
+
+    <script src="scripts/script.js">
+    </script>
+</body>
+
+</html>
